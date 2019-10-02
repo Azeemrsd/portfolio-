@@ -20,3 +20,127 @@
 .App-link {
   color: #09d3ac;
 }
+.checked {
+  color: orange;
+}
+.firstcol {
+  background-color: purple;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.br {
+  border-radius: 25px;
+}
+.table-custom {
+  width: 98%;
+  height: auto;
+  text-align: center;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.table-custom th {
+  border: 1px solid black;
+  color: white;
+  background-color: purple;
+  padding: 1rem;
+}
+.table-custom td {
+  border: 1px solid black;
+  padding: 1rem;
+}
+.table-custom tr:nth-child(even) {
+  background-color: rgb(214, 207, 207);
+}
+@media screen and (max-width: 395px) {
+  .table-custom th,
+  .table-custom td {
+    padding: 2px;
+  }
+}
+.secondcol {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.owl-theme {
+  background-color: #fffdd0;
+  width: 100vw;
+}
+.para {
+  box-sizing: border-box;
+}
+.education {
+  width: 100%;
+}
+.row {
+  margin: 0 !important;
+}
+.fa {
+  font-family: "Fontawesome";
+}
+.contact-me {
+  padding: 1.5rem;
+  margin: auto;
+  height: auto;
+  width: 700px;
+  background-color: #fffdd0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  margin: 1rem;
+  padding: 6px;
+}
+textarea {
+  width: 100%;
+  margin: 1rem !important;
+}
+label {
+  margin: 1rem;
+}
+@media screen and (max-width: 699px) {
+  .contact-me {
+    width: 100%;
+  }
+}
+.btn-send {
+  border: none;
+  padding: 10px 20px;
+  background-color: purple;
+  color: white;
+}
+.btn-send:hover {
+  background-color: rgb(224, 50, 224);
+}
+.projects {
+  width: 100%;
+  padding: 2rem;
+  background-color: #fffdd0;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+span .navbar-toggler-icon {
+  color: #fff;
+}
+
+.navbar {
+  z-index: 2;
+}
+.basic {
+  background-color: #ff7700;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cc0000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d6002b' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b10022' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d9004b' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b2003d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d3006c' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ac0057' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c4008c' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%239e0071' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+.contactHeading {
+  color: red;
+  font-size: 2rem;
+}
+.para1 {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
